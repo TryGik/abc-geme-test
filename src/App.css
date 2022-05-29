@@ -1,0 +1,76 @@
+.container {
+  width: 1200px;
+  min-height: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #c0c0c0;
+}
+
+.wrapper_start_game {
+  width: 600px;
+  height: 300px;
+  margin: 15%  25% 25% 25%;
+  background-color: bisque;
+}
+
+.button_start_game {
+  margin: 83px 200px;
+  padding: 30px;
+  font-size: 20px;
+  background-color: orange;
+  color: white;
+}
+
+.game_title {
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+.letter {
+  width: 375px;
+  height: 250px;
+  margin-left: 35.5%; 
+  margin-bottom: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 145px;
+}
+
+.answer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.picture {
+  width: 176px;
+  height: 220px;
+  border: 1px solid black;
+}
+
+.resultWin {
+  width: 540px;
+  height: 250px;
+  margin-left: 29%;
+  border: 1px solid black;
+  background-image: url('https://99px.ru/sstorage/86/2018/07/10507180927522101.gif');
+}
+
+.resultLose {
+  width: 540px;
+  height: 250px;
+  margin-left: 29%;
+  border: 1px solid black;
+  background-image: url('https://gifki.info/uploads/posts/2017-05/1495220943_2434-grust-pod-dozhdem.gif');
+}
+
+.letter_Title {
+  width: 375px;
+  height: 250px;
+}
+
+.letter_Quiz {
+  max-width: 176px;
+  max-height: 220px;
+}
